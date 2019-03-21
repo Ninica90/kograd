@@ -1,0 +1,107 @@
+.img-circular {
+	width: 200px;
+	height: 200px;
+}
+
+.img-circular2 {
+	border-radius: 90%;
+	border: dotted;
+	color: #4da6ff;
+}
+
+.image-padding {
+	margin-left: auto;
+}
+
+.image-inside {
+	width: 170px;
+	height: 170px;
+	margin-left: 10px;
+}
+
+.total-station {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.space-updown {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.text-center {
+	margin-left: 4px;
+	padding: 5px;
+}
+
+.link-title {
+	border: 1px solid;
+	background-color: darkblue;
+	border-radius: 10px 40px;
+	color: white !important;
+	margin-top: 28px;
+}
+
+.navbar-dark {
+	background-color: darkblue;
+}
+
+@media screen and (max-width: 768px) {
+	.mt-sm-6 {
+		margin-top: 4rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.icons-size {
+		max-width: 130px;
+		max-height: 130px;
+	}
+}
+
+@media (max-width: 768px) {
+  .mt-none {
+    padding-top: 2px;
+    margin-top: -8px;
+  }
+}
+
+.geo-link-title {
+	margin-top: 18px !important;
+}
+
+@media (max-width: 768px) {
+  .mt-geo{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+	.mt-about {
+		margin-top: -8px;
+		padding-top: 2px;
+	}
+}
+
+@media (max-width: 768px) {
+	.image-mobile {
+		position:relative;
+		left: -10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.mt-about-icon {
+		margin-top: 50px;
+	}
+}
+
+/* Responsive layout - makes a three column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 33%;
+    max-width: 33%;
+  }
+}
